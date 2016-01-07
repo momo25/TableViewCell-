@@ -9,11 +9,30 @@
 /* Begin PBXBuildFile section */
 		48DBCD331C01EB8A002EC476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD321C01EB8A002EC476 /* main.m */; };
 		48DBCD361C01EB8A002EC476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD351C01EB8A002EC476 /* AppDelegate.m */; };
-		48DBCD391C01EB8A002EC476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD381C01EB8A002EC476 /* ViewController.m */; };
 		48DBCD3C1C01EB8A002EC476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD3A1C01EB8A002EC476 /* Main.storyboard */; };
 		48DBCD3E1C01EB8A002EC476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD3D1C01EB8A002EC476 /* Images.xcassets */; };
 		48DBCD411C01EB8A002EC476 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD3F1C01EB8A002EC476 /* LaunchScreen.xib */; };
 		48DBCD4D1C01EB8A002EC476 /* TableViewCell_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD4C1C01EB8A002EC476 /* TableViewCell_____Tests.m */; };
+		48DBCD711C01EBCC002EC476 /* icon0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD571C01EBCC002EC476 /* icon0.jpg */; };
+		48DBCD721C01EBCC002EC476 /* icon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD581C01EBCC002EC476 /* icon1.jpg */; };
+		48DBCD731C01EBCC002EC476 /* icon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD591C01EBCC002EC476 /* icon2.jpg */; };
+		48DBCD741C01EBCC002EC476 /* icon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5A1C01EBCC002EC476 /* icon3.jpg */; };
+		48DBCD751C01EBCC002EC476 /* icon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5B1C01EBCC002EC476 /* icon4.jpg */; };
+		48DBCD761C01EBCC002EC476 /* pic0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5C1C01EBCC002EC476 /* pic0.jpg */; };
+		48DBCD771C01EBCC002EC476 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5D1C01EBCC002EC476 /* pic1.jpg */; };
+		48DBCD781C01EBCC002EC476 /* pic2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5E1C01EBCC002EC476 /* pic2.jpg */; };
+		48DBCD791C01EBCC002EC476 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD5F1C01EBCC002EC476 /* pic3.jpg */; };
+		48DBCD7A1C01EBCC002EC476 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD601C01EBCC002EC476 /* pic4.jpg */; };
+		48DBCD7B1C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD631C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		48DBCD7C1C01EBCC002EC476 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD651C01EBCC002EC476 /* UIView+SDAutoLayout.m */; };
+		48DBCD7D1C01EBCC002EC476 /* sdRefeshView_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DBCD671C01EBCC002EC476 /* sdRefeshView_arrow@2x.png */; };
+		48DBCD7E1C01EBCC002EC476 /* SDRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD6A1C01EBCC002EC476 /* SDRefreshFooterView.m */; };
+		48DBCD7F1C01EBCC002EC476 /* SDRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD6C1C01EBCC002EC476 /* SDRefreshHeaderView.m */; };
+		48DBCD801C01EBCC002EC476 /* SDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD6E1C01EBCC002EC476 /* SDRefreshView.m */; };
+		48DBCD811C01EBCC002EC476 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD701C01EBCC002EC476 /* UIView+SDExtension.m */; };
+		48DBCD891C01EC2D002EC476 /* DemoVC5.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD841C01EC2D002EC476 /* DemoVC5.m */; };
+		48DBCD8A1C01EC2D002EC476 /* DemoVC5CellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD861C01EC2D002EC476 /* DemoVC5CellTableViewCell.m */; };
+		48DBCD8B1C01EC2D002EC476 /* DemoVC5Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DBCD881C01EC2D002EC476 /* DemoVC5Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +51,42 @@
 		48DBCD321C01EB8A002EC476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48DBCD341C01EB8A002EC476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48DBCD351C01EB8A002EC476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48DBCD371C01EB8A002EC476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48DBCD381C01EB8A002EC476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48DBCD3B1C01EB8A002EC476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48DBCD3D1C01EB8A002EC476 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48DBCD401C01EB8A002EC476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		48DBCD461C01EB8A002EC476 /* TableViewCell高度自适应Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell高度自适应Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DBCD4B1C01EB8A002EC476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48DBCD4C1C01EB8A002EC476 /* TableViewCell_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableViewCell_____Tests.m"; sourceTree = "<group>"; };
+		48DBCD571C01EBCC002EC476 /* icon0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon0.jpg; sourceTree = "<group>"; };
+		48DBCD581C01EBCC002EC476 /* icon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon1.jpg; sourceTree = "<group>"; };
+		48DBCD591C01EBCC002EC476 /* icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon2.jpg; sourceTree = "<group>"; };
+		48DBCD5A1C01EBCC002EC476 /* icon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon3.jpg; sourceTree = "<group>"; };
+		48DBCD5B1C01EBCC002EC476 /* icon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon4.jpg; sourceTree = "<group>"; };
+		48DBCD5C1C01EBCC002EC476 /* pic0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic0.jpg; sourceTree = "<group>"; };
+		48DBCD5D1C01EBCC002EC476 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic1.jpg; sourceTree = "<group>"; };
+		48DBCD5E1C01EBCC002EC476 /* pic2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic2.jpg; sourceTree = "<group>"; };
+		48DBCD5F1C01EBCC002EC476 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic3.jpg; sourceTree = "<group>"; };
+		48DBCD601C01EBCC002EC476 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pic4.jpg; sourceTree = "<group>"; };
+		48DBCD621C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		48DBCD631C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		48DBCD641C01EBCC002EC476 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		48DBCD651C01EBCC002EC476 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		48DBCD671C01EBCC002EC476 /* sdRefeshView_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sdRefeshView_arrow@2x.png"; sourceTree = "<group>"; };
+		48DBCD681C01EBCC002EC476 /* SDRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefresh.h; sourceTree = "<group>"; };
+		48DBCD691C01EBCC002EC476 /* SDRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefreshFooterView.h; sourceTree = "<group>"; };
+		48DBCD6A1C01EBCC002EC476 /* SDRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshFooterView.m; sourceTree = "<group>"; };
+		48DBCD6B1C01EBCC002EC476 /* SDRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefreshHeaderView.h; sourceTree = "<group>"; };
+		48DBCD6C1C01EBCC002EC476 /* SDRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshHeaderView.m; sourceTree = "<group>"; };
+		48DBCD6D1C01EBCC002EC476 /* SDRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDRefreshView.h; sourceTree = "<group>"; };
+		48DBCD6E1C01EBCC002EC476 /* SDRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDRefreshView.m; sourceTree = "<group>"; };
+		48DBCD6F1C01EBCC002EC476 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		48DBCD701C01EBCC002EC476 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		48DBCD831C01EC2D002EC476 /* DemoVC5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC5.h; sourceTree = "<group>"; };
+		48DBCD841C01EC2D002EC476 /* DemoVC5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC5.m; sourceTree = "<group>"; };
+		48DBCD851C01EC2D002EC476 /* DemoVC5CellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC5CellTableViewCell.h; sourceTree = "<group>"; };
+		48DBCD861C01EC2D002EC476 /* DemoVC5CellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC5CellTableViewCell.m; sourceTree = "<group>"; };
+		48DBCD871C01EC2D002EC476 /* DemoVC5Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVC5Model.h; sourceTree = "<group>"; };
+		48DBCD881C01EC2D002EC476 /* DemoVC5Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVC5Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +128,11 @@
 		48DBCD2F1C01EB8A002EC476 /* TableViewCell高度自适应 */ = {
 			isa = PBXGroup;
 			children = (
+				48DBCD821C01EC0F002EC476 /* Demo */,
+				48DBCD611C01EBCC002EC476 /* SDAutoLayout */,
+				48DBCD661C01EBCC002EC476 /* SDRefeshView */,
 				48DBCD341C01EB8A002EC476 /* AppDelegate.h */,
 				48DBCD351C01EB8A002EC476 /* AppDelegate.m */,
-				48DBCD371C01EB8A002EC476 /* ViewController.h */,
-				48DBCD381C01EB8A002EC476 /* ViewController.m */,
 				48DBCD3A1C01EB8A002EC476 /* Main.storyboard */,
 				48DBCD3D1C01EB8A002EC476 /* Images.xcassets */,
 				48DBCD3F1C01EB8A002EC476 /* LaunchScreen.xib */,
@@ -96,6 +144,7 @@
 		48DBCD301C01EB8A002EC476 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48DBCD561C01EBCC002EC476 /* Images */,
 				48DBCD311C01EB8A002EC476 /* Info.plist */,
 				48DBCD321C01EB8A002EC476 /* main.m */,
 			);
@@ -117,6 +166,64 @@
 				48DBCD4B1C01EB8A002EC476 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48DBCD561C01EBCC002EC476 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				48DBCD571C01EBCC002EC476 /* icon0.jpg */,
+				48DBCD581C01EBCC002EC476 /* icon1.jpg */,
+				48DBCD591C01EBCC002EC476 /* icon2.jpg */,
+				48DBCD5A1C01EBCC002EC476 /* icon3.jpg */,
+				48DBCD5B1C01EBCC002EC476 /* icon4.jpg */,
+				48DBCD5C1C01EBCC002EC476 /* pic0.jpg */,
+				48DBCD5D1C01EBCC002EC476 /* pic1.jpg */,
+				48DBCD5E1C01EBCC002EC476 /* pic2.jpg */,
+				48DBCD5F1C01EBCC002EC476 /* pic3.jpg */,
+				48DBCD601C01EBCC002EC476 /* pic4.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		48DBCD611C01EBCC002EC476 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				48DBCD621C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.h */,
+				48DBCD631C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.m */,
+				48DBCD641C01EBCC002EC476 /* UIView+SDAutoLayout.h */,
+				48DBCD651C01EBCC002EC476 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		48DBCD661C01EBCC002EC476 /* SDRefeshView */ = {
+			isa = PBXGroup;
+			children = (
+				48DBCD671C01EBCC002EC476 /* sdRefeshView_arrow@2x.png */,
+				48DBCD681C01EBCC002EC476 /* SDRefresh.h */,
+				48DBCD691C01EBCC002EC476 /* SDRefreshFooterView.h */,
+				48DBCD6A1C01EBCC002EC476 /* SDRefreshFooterView.m */,
+				48DBCD6B1C01EBCC002EC476 /* SDRefreshHeaderView.h */,
+				48DBCD6C1C01EBCC002EC476 /* SDRefreshHeaderView.m */,
+				48DBCD6D1C01EBCC002EC476 /* SDRefreshView.h */,
+				48DBCD6E1C01EBCC002EC476 /* SDRefreshView.m */,
+				48DBCD6F1C01EBCC002EC476 /* UIView+SDExtension.h */,
+				48DBCD701C01EBCC002EC476 /* UIView+SDExtension.m */,
+			);
+			path = SDRefeshView;
+			sourceTree = "<group>";
+		};
+		48DBCD821C01EC0F002EC476 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				48DBCD831C01EC2D002EC476 /* DemoVC5.h */,
+				48DBCD841C01EC2D002EC476 /* DemoVC5.m */,
+				48DBCD851C01EC2D002EC476 /* DemoVC5CellTableViewCell.h */,
+				48DBCD861C01EC2D002EC476 /* DemoVC5CellTableViewCell.m */,
+				48DBCD871C01EC2D002EC476 /* DemoVC5Model.h */,
+				48DBCD881C01EC2D002EC476 /* DemoVC5Model.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +306,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DBCD781C01EBCC002EC476 /* pic2.jpg in Resources */,
 				48DBCD3C1C01EB8A002EC476 /* Main.storyboard in Resources */,
+				48DBCD711C01EBCC002EC476 /* icon0.jpg in Resources */,
+				48DBCD741C01EBCC002EC476 /* icon3.jpg in Resources */,
 				48DBCD411C01EB8A002EC476 /* LaunchScreen.xib in Resources */,
+				48DBCD761C01EBCC002EC476 /* pic0.jpg in Resources */,
+				48DBCD7A1C01EBCC002EC476 /* pic4.jpg in Resources */,
+				48DBCD721C01EBCC002EC476 /* icon1.jpg in Resources */,
+				48DBCD771C01EBCC002EC476 /* pic1.jpg in Resources */,
+				48DBCD751C01EBCC002EC476 /* icon4.jpg in Resources */,
 				48DBCD3E1C01EB8A002EC476 /* Images.xcassets in Resources */,
+				48DBCD7D1C01EBCC002EC476 /* sdRefeshView_arrow@2x.png in Resources */,
+				48DBCD791C01EBCC002EC476 /* pic3.jpg in Resources */,
+				48DBCD731C01EBCC002EC476 /* icon2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48DBCD391C01EB8A002EC476 /* ViewController.m in Sources */,
+				48DBCD7E1C01EBCC002EC476 /* SDRefreshFooterView.m in Sources */,
+				48DBCD7F1C01EBCC002EC476 /* SDRefreshHeaderView.m in Sources */,
+				48DBCD801C01EBCC002EC476 /* SDRefreshView.m in Sources */,
+				48DBCD811C01EBCC002EC476 /* UIView+SDExtension.m in Sources */,
 				48DBCD361C01EB8A002EC476 /* AppDelegate.m in Sources */,
+				48DBCD7B1C01EBCC002EC476 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				48DBCD891C01EC2D002EC476 /* DemoVC5.m in Sources */,
+				48DBCD8A1C01EC2D002EC476 /* DemoVC5CellTableViewCell.m in Sources */,
+				48DBCD8B1C01EC2D002EC476 /* DemoVC5Model.m in Sources */,
 				48DBCD331C01EB8A002EC476 /* main.m in Sources */,
+				48DBCD7C1C01EBCC002EC476 /* UIView+SDAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
